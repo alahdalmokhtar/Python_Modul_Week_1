@@ -9,7 +9,7 @@ while total_les <=4 :
     total_les +=1
     avg=(midterm*.4)+(final_grade*.6)
     if avg >=50 :
-        status="Succful " 
+        status="Succful "       
     else:
         status="Faild"
     print(f"the course : {les1} - Average : {avg}  is {status}")
