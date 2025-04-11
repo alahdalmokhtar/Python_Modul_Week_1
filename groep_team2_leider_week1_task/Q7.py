@@ -14,6 +14,7 @@ elif seq==1:
     print(l[0])
 else:
 # if there is only one term, return n1
+
    print("Fibonacci sequence:")     
    while count < seq:
       
