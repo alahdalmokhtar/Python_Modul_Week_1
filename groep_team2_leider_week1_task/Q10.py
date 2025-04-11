@@ -13,7 +13,7 @@ def calculate_weight_index():
         category = "normal"
     elif 30 <= weight_index < 40:
         category = "overweight"
-    else:  # weight_index >= 40
+    else:  # weight_index >= 40       
         category = "obese"  
     # Display the result
     print(f"\nYour weight_index is: {weight_index:.2f}")
